@@ -16,10 +16,9 @@ const ItemDetailContainer = () => {
             .then((data)=>{
                 setProduct(data)
             })
-            .catch(error => console.warn(error))
-        console.log(id)
+            .catch(error => console.warn(error))  
     }, [id])
-    console.log(product);
+    
 
     return (  
         <Container>

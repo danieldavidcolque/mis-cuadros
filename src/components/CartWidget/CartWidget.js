@@ -1,13 +1,24 @@
-import './CartWidget.css'; //Los archivos que no son JS hay q ponerles la extensión
-import {TiShoppingCart} from 'react-icons/ti';
+import './CartWidget.css';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+
+import { Badge } from 'react-bootstrap';
+import CartContext from '../contexts/CartContext';
+
 
 const CartWidget = () => {
-    return (  
-        <Link to="/cart">
-            <TiShoppingCart/>
-        </Link>   
-    );
+  const { totalQuantity } = useContext(CartContext);
+  return (
+    <>
+      <Link to="/cart">
+        <AiOutlineShoppingCart />
+      </Link>
+      {totalQuantity > 0 && (
+        <Badge pill bg="danger">{totalQuantity}</Badge>
+      )}
+    </>
+  );
 }
  
 export default CartWidget;
