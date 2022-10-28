@@ -1,0 +1,11 @@
+.footer_container {
+    background-color: #6e72706c;
+    font-weight: 500;
+    font-size: small;
+    font-style: italic;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2rem;
+}

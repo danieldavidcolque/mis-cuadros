@@ -61,7 +61,7 @@ export const getProductsByCategory = (categoryId) => {
     .catch(error => console.warn(error))
 };
 
-const products = [
+/* const products = [
   {title:'Camino amor', category: 'cuadros', description:'Autor: Alejandro Lima', pictureUrl: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/827/131/products/7625-294-afremov-45x301-db364258f99265f91a16111587199026-640-0.jpg', price: 2800, stock: 3},
   {title:'Mirada mujer', category: 'cuadros', description:'Autor: Maria Zenith', pictureUrl: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/827/131/products/4866-366-arte-mujeres-45x301-0af1df53a9c4d92cb616111585653442-640-0.jpg', price: 3000, stock: 2},
   {title:'Mapa de especias', category: 'cuadros', description:'Autor: Marisa Renna', pictureUrl:'https://d3ugyf2ht6aenh.cloudfront.net/stores/827/131/products/354-mapa-con-especias-45x301-a4315fc82c7edbb88816111585729441-640-0.jpg', price: 3500, stock: 2},
@@ -85,4 +85,4 @@ export const createAllProducts = async () => {
   } catch (error) {
     console.warn(error)
   }
-}
+} */
