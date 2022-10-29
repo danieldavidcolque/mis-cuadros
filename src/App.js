@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   return (
-    <BrowserRouter>      
+    <BrowserRouter basename='/mis-cuadros'>      
         <CartProvider>
           <NavBar />          
             <Routes>
