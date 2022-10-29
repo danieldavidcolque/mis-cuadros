@@ -3,7 +3,7 @@
 
 MIS CUADROS E-COMMERCE is web application that allows users to search for artistic products stored in Firestore, add them to shopping cart and then make payment, the user is able to browse and add product to cart and generate the purchase order.
 
-LINK version web [MIS CUADROS E-COMMERCE](https://github.com/danieldavidcolque/mis-cuadros)
+LINK version web [MIS CUADROS E-COMMERCE](https://danieldavidcolque.github.io/mis-cuadros)
 
 LINK github [Github Mis cuadros](https://github.com/danieldavidcolque/mis-cuadros.git)
 
