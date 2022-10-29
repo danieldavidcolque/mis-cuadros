@@ -36,5 +36,3 @@ This is summary before payment. Page displays name, quantity, price and total pr
  **React Bootstrap** - free and open-source CSS framework directed at responsive development.
 
 **Firebase/Firestore** - provides detailed documentation and cross-platform SDKs to help you build and ship apps.
-
-

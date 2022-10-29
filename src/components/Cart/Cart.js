@@ -6,7 +6,7 @@ import './Cart.css';
 import { Link } from "react-router-dom";
 import { createOrder } from "../utils/orders";
 import CartContext from "../contexts/CartContext";
-import OrderModal from "../OrderModal/OrdertModal";
+import OrderModal from "../OrderModal/OrderModal";
 
 const buyerMock = {
   name: 'coderhouse',
