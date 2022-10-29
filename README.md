@@ -1,72 +1,40 @@
 
-# Getting Started with Create React App
-# Getting Started with Create React App
+# MIS CUADROS - E-COMMERCE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MIS CUADROS E-COMMERCE is web application that allows users to search for artistic products stored in Firestore, add them to shopping cart and then make payment, the user is able to browse and add product to cart and generate the purchase order.
 
-## Available Scripts
+LINK version web [MIS CUADROS E-COMMERCE](https://github.com/danieldavidcolque/mis-cuadros)
 
-In the project directory, you can run:
+LINK github [Github Mis cuadros](https://github.com/danieldavidcolque/mis-cuadros.git)
 
-### `npm start`
+## DEMO gif
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![](https://firebasestorage.googleapis.com/v0/b/miscuadros-ecommerce.appspot.com/o/Recording%202022-10-28%20at%2022.40.24.gif?alt=media&token=8c1fca19-787e-43a2-9741-a8b03976efc6)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## PROYECT CONTENT:
+### **Products**
+Page where are displayed all products in form of card with image, detail info about product and price of each product.
+### **Product Details**
+Page include all details about selected product - image, description, price and add to cart button with counter field allowing select product quantity.
+### **Cart page**
+Page allows to review what is in cart whit the product name and description user can delete item completely. 
+### **Checkout page**
+This is summary before payment. Page displays name, quantity, price and total price. the user must fill in the requested information and finish the purchase, an ID of that operation will be generated.
 
-### `npm test`
+## TECNOLOGIES USED
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**GitHub** - provides hosting for software development version control using Git.
 
-### `npm run build`
+**Git** - version-control system for tracking changes in source code during software development.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**ReactJS** - Javascript library.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**JavaScript** - programming language.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**CSS3** - used to define styles for Web pages, including the design, layout and variations in display for different devices and screen sizes.
 
-### `npm run eject`
+ **React Bootstrap** - free and open-source CSS framework directed at responsive development.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Firebase/Firestore** - provides detailed documentation and cross-platform SDKs to help you build and ship apps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
